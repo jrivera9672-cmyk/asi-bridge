@@ -22,7 +22,7 @@ async def handle_webhook(request: Request):
     }
     
     payload = {
-        "model": "asi-one",
+        "model": "asi1",
         "messages": [{"role": "user", "content": user_prompt}]
     }
 
